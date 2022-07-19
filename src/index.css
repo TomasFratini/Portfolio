@@ -14,17 +14,7 @@
 @font-face { 
     font-family: GT Zirkon2; 
     src: url('/src/GT-Zirkon/GT-Zirkon-Thin.woff2') format('woff2');
-    } 
-
-
-.fondo {
-    background-color: white;
-}
-
-.itemfondo {
-    background-color: white
-    ;
-}
+} 
 
 .fondoproyect {
     background-color: #afb4b7
@@ -37,8 +27,13 @@
     font-size: 22px;
 }
 
+.tipografia {
+    font-family: 'GT Zirkon2';
+    font-weight: bold;
+}
+
 .items {
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'GT Zirkon2';
     font-weight: bold ;
 }
@@ -52,8 +47,14 @@
 
 .linkedin {
     color: green;
+    font-family: 'GT Zirkon';
+    font-weight: bold;
 }
 
 .imgfondo {
     background-image: url('/src/components/sobremi/fondo.jpg');
+}
+
+.nav {
+    font-family: 'GT Zirkon';
 }
