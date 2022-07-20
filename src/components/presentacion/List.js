@@ -23,9 +23,8 @@ function List() {
 
 
   return (
-    
-    <div className='pl-40 mb-20'>
-        {item.map(p => <Item key={p.id} item={p}/>)}
+    <div className='grid justify-items-stretch'>
+      {item.map(p => <Item key={p.id} item={p}/>)}
     </div>
 
   )

@@ -3,21 +3,21 @@ import perfil from "./perfil.png"
 
 function Proyectos() {
   return (
-    <>
-      <div className="pl-40 m-0 ">
-        <h1 className="text-6xl font-bold nombre ">Tomas Fratini</h1>
-        <div className="hero min-h-screen flex justify-between bg-base-200 shadow-inner ">
-          <div className="hero-content  ">
-            <img alt="img " src={perfil} className="max-w-sm rounded-lg shadow-2xl rounded-none ml-20" />
-            <div className="flex-column justify-end mt-96 ">
-              <h3 className="font-bold text-xl texto">Desarrollador Front end</h3>
-              <p className=" texto">Soy un desarrollador web y de software de Cordoba, Argentina</p>
-            </div>
-          </div>
+  <>
+  <div className="grid justify-items-stretch">
+    <div class="hero min-h-screen bg-base-200 max-w-7xl justify-self-end ">
+      <div class="hero-content flex-col lg:flex-row ">
+        <img alt="img" src={perfil} class="max-w-sm rounded-lg shadow-2xl" />
+        <div>
+          <h1 class="text-4xl font-bold tipografia">Desarrollador Front end</h1>
+          <p class="py-6 texto">Desarrollador de Software, de Cordoba-Argentina</p>
         </div>
       </div>
-        <List/>
-    </>
+    </div>
+    
+  </div>
+      <List/>
+  </>
 
   )
 }

@@ -3,9 +3,12 @@ function Nav() {
 
 return (
 <div className="navbar flex justify-end fondo text-black pt-5 pr-5 ">
-    <div className="flex-1">
-      <a href="/" className="btn btn-ghost normal-case text-3xl nav">tf</a>
-    </div>
+  <div class="flex-1">
+    <a  href="/" class="btn btn-ghost normal-case text-xl tipografia">Tomas Fratini</a>
+  </div>
+    <li className="btn btn-ghost normal-case text-lg" tabIndex="0">
+      <a href="/" className="innert nav">Proyectos</a>
+    </li>
     <li className="btn btn-ghost normal-case text-lg" tabIndex="0">
       <a href="/sobremi" className="innert nav">Sobre mi</a>
     </li>

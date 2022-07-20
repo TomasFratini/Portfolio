@@ -4,7 +4,7 @@ function Item(props) {
     const {name, description, img, web, skil1, skil2, skil3, skil4, skil5} = props.item
 
   return (
-  <div className="flex flex-col w-full border-white pt-8 bg-base-200 rounded-b-lg"><font></font>
+  <div className="flex flex-col w-full border-white pt-8 bg-base-200 rounded-b-lg max-w-7xl justify-self-end"><font></font>
     <div className="grid h-92 card rounded-box place-items-center m-1 bg-base-200">
       <div className="card card-side shadow-xl bg-base-200"><font></font>
         <figure><img className="w-96" src={img} alt="item"/></figure><font></font>
