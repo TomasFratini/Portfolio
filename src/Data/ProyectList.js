@@ -1,13 +1,15 @@
 import ecowheels from "../img/ecowheels.png"
 import gardenia from "../img/gardenia.png"
 import sendbox from "../img/sendbox.png"
+import challenge from "../img/challenge.png"
+
 
 export const proyectList = [
     
     {id:"1",
     name:"Ecowheels",
     img: ecowheels,
-    description:"Pagina e-commerce diseñanada para la venta de monopatines electricos desarrollada con HTML, CSS (SASS) y Bootstrap",
+    description:"Pagina e-commerce diseñada para la venta de monopatines electricos desarrollada con HTML, CSS (SASS) y Bootstrap",
     web:"https://ecowheels-fratini.vercel.app/index.html",
     skil1: "HTML",
     skil2: "CSS",
@@ -36,5 +38,16 @@ export const proyectList = [
     skil3: "Tailwind",
     skil4: "Daisyui",
     skil5: "Firebase"
+},
+{id:"4",
+    name:"Challenge We-Remote",
+    img: challenge,
+    description:"Pagina creada con React, diseñada en primer lugar con Figma; desarrollada con HTML, SASS, Daisyui y JavaScript",
+    web:"https://frontend-dev-challenge-tomasfratini.vercel.app/",
+    skil1: "React",
+    skil2: "HTML",
+    skil3: "Figma",
+    skil4: "Daisyui",
+    skil5: "SASS"
 }
 ]
