@@ -1,7 +1,11 @@
+import { useTranslation } from "react-i18next";
 import List from "./List"
 import perfil from "./perfil.png"
 
 function Proyectos() {
+
+  const [t, i18n] = useTranslation("global");
+
   return (
   <>
   <div className="grid justify-items-stretch">
@@ -9,8 +13,8 @@ function Proyectos() {
       <div className="hero-content flex-col lg:flex-row ">
         <img alt="img" src={perfil} className="max-w-sm rounded-lg shadow-2xl" />
         <div>
-          <h1 className="text-4xl font-bold tipografia">Desarrollador Front end</h1>
-          <p className="py-6 texto">Desarrollador de Software, de Cordoba-Argentina</p>
+          <h1 className="text-4xl font-bold tipografia">{t('projects.title')}</h1>
+          <p className="py-6 texto">{t('projects.title-2')}</p>
         </div>
       </div>
     </div>

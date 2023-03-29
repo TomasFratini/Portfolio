@@ -2,5 +2,30 @@
     "nav": {
         "about": "Sobre mi",
         "contact": "Contacto"
+    },
+    
+    "about": {
+        "title": "Desarrollador de software",
+        "description": "Hola! mi nombre es Tomas Fratini y soy desarrollador de software actualemente orientado al Front end. Me he certificado en Desarrollo Web, JavaScript, React; Me encuentro sumamente motivado por aprender nuevas tecnologias y herramientas que me aporten experiencia y conocimiento en el mundo del desarrollo. En la seccion contacto podras enviarme un mensaje para ponernos en contacto! Saludos!!",
+        "button": "Proyectos"
+    },
+    "projects": {
+        "title": "Desarrollador de software",
+        "title-2": "Desarrollador de software, Cordoba, Argentina"
+    },
+    "contact": {
+        "title": "Envieme un mensaje",
+        "title-2": "Su correo electronico *",
+        "title-3": "Mensaje *",
+        "send": "Enviar"  
+    },
+
+    "message": {
+        "send": "El mensaje ha sido enviado!"
+    },
+
+    "button": {
+        "visit": "Visitar proyecto"
     }
+
 }

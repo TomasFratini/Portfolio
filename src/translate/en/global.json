@@ -2,5 +2,32 @@
     "nav": {
         "about": "About",
         "contact": "Contact"
+    },
+
+    "about": {
+        "title": "Software developer",
+        "description": "Hello! my name is Tomas Fratini and I am a software developer currently oriented to the front end. I am certified in Web Development, JavaScript, React; I am highly motivated to learn new technologies and tools that bring me experience and knowledge in the world of development. In the contact section you can send me a message to get in touch! Greetings!!",
+        "button": "Projects"
+    },
+
+    "projects": {
+        "title": "Software developer",
+        "title-2": "Software developer, Cordoba, Argentina"
+    },
+
+    "contact": {
+        "title": "Send me a message",
+        "title-2": "E-mail*",
+        "title-3": "Message *",
+        "send": "Send"
+    },
+
+    "message": {
+        "send": "The message has been sent!"
+    },
+
+    "button": {
+        "visit": "Visit project"
     }
+
 }

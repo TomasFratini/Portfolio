@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import Message from "./Message";
 import { UseForm } from "./UseForm"
 
@@ -32,6 +33,8 @@ let styles = {
 
 const Contacto = () => {
 
+  const [t, i18n] = useTranslation("global");
+
   const {form, 
     errors, 
     loading, 
@@ -48,10 +51,10 @@ const Contacto = () => {
   <div className="border border-base-300">
     <div className="flex justify-center px-4 py-16 border-t border-base-300 bg-base-200">
       <div className="w-96">
-        <h1 className="text-3xl text-black tipografia pb-10">Envieme un mensaje</h1>
+        <h1 className="text-3xl text-black tipografia pb-10">{t('contact.title')}</h1>
         <form onSubmit={handleSubmit}>
           <label className="label">
-            <span className="label-text tipografia text-xl">Su correo electronico *</span>
+            <span className="label-text tipografia text-xl">{t('contact.title-2')}</span>
           </label>
           <label className="input-group input-group-vertical">
             <input 
@@ -66,7 +69,7 @@ const Contacto = () => {
             {errors.email && <p className="tipografia" style={styles}>{errors.email}</p>}
           </label>
           <label className="label ">
-            <span className="label-text text-xl tipografia ">Mensaje *</span>
+            <span className="label-text text-xl tipografia ">{t('contact.title-3')}</span>
           </label>
           <label className="input-group input-group-vertical">
             <textarea
@@ -81,7 +84,7 @@ const Contacto = () => {
             {errors.mensaje && <p className="tipografia" style={styles}>{errors.mensaje}</p>}
           </label>
           <div className="flex justify-center pt-5">
-            <button type="submit" className="btn bg-base-200 text-black normal-case">Enviar</button>
+            <button type="submit" className="btn bg-base-200 text-black normal-case">{t('contact.send')}</button>
           </div>
         </form>
         {response && <Message/>}

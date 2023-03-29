@@ -1,7 +1,9 @@
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom"
 
 const Sobremi = () => {
 
+  const [t, i18n] = useTranslation("global");
 
   return (
 
@@ -10,13 +12,10 @@ const Sobremi = () => {
             </div>
         <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md">
-            <h1 className="mb-5 text-3xl font-bold nav pb-52">Desarrollador de software</h1>
-            <p className="mb-5 items text-justify   ">Hola! mi nombre es Tomas Fratini y soy desarrollador de software actualemente orientado al Front end.
-            Me he certificado en Desarrollo Web, JavaScript, React; Me encuentro sumamente motivado por aprender nuevas tecnologias y herramientas que me aporten experiencia y conocimiento en el mundo del desarrollo.
-            En la seccion contacto podras enviarme un mensaje para ponernos en contacto!
-            Saludos!!
+            <h1 className="mb-5 text-3xl font-bold nav pb-52">{t('about.title')}</h1>
+            <p className="mb-5 items text-justify   ">{t('about.description')}
             </p>
-            <Link to={'/'} ><button  className="btn btn-outline bg-white normal-case">Proyectos</button></Link>
+            <Link to={'/'} ><button  className="btn btn-outline bg-white normal-case">{t('about.button')}</button></Link>
             </div>
         </div>
     </div>

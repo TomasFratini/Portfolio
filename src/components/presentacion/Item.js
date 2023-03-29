@@ -1,7 +1,10 @@
+import { useTranslation } from "react-i18next";
 
 function Item(props) {
 
     const {name, description, img, web, skil1, skil2, skil3, skil4, skil5} = props.item
+
+    const [t, i18n] = useTranslation("global");
 
   return (
   <div className="flex flex-col w-full border-white pt-8 bg-base-200 rounded-b-lg max-w-7xl justify-self-end"><font></font>
@@ -17,7 +20,7 @@ function Item(props) {
           <div className="badge badge-outline items">{skil3}</div>
           <div className="badge badge-outline items">{skil4}</div>
           <div className="badge badge-outline items">{skil5}</div>
-          <a target="blank" href={web}><button className="btn bg-white normal-case text-black items">Visitar proyecto</button></a>
+          <a target="blank" href={web}><button className="btn bg-white normal-case text-black items">{t('button.visit')}</button></a>
         </div><font></font>
         </div><font></font>
       </div>
