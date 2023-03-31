@@ -2,6 +2,7 @@ import ecowheels from "../img/ecowheels.png"
 import gardenia from "../img/gardenia.png"
 import sendbox from "../img/sendbox.png"
 import challenge from "../img/challenge.png"
+import cerati from "../img/cerati.png"
 
 
 
@@ -50,5 +51,17 @@ export const proyectList = [
     skil3: "Figma",
     skil4: "Daisyui",
     skil5: "SASS"
+},
+{id:"5",
+    name:"Cerati-gallery",
+    img: cerati,
+    description:"Gallery of images in tribute to Gustavo Cerati, created with React; developed with HTML y JavaScript",
+    web:"https://cerati.vercel.app/",
+    skil1: "React",
+    skil2: "HTML",
+    skil3: "CSS",
+    skil4: "Daisyui",
+    skil5: "Tailwind",
+    skil6: "Firebase"
 }
 ]
