@@ -3,7 +3,7 @@ import gardenia from "../img/gardenia.png"
 import sendbox from "../img/sendbox.png"
 import challenge from "../img/challenge.png"
 import cerati from "../img/cerati.png"
-
+import whiterain from "../img/whiterain.png"
 
 
 export const proyectList = [
@@ -63,5 +63,16 @@ export const proyectList = [
     skil4: "Daisyui",
     skil5: "Tailwind",
     skil6: "Firebase"
+},
+{id:"6",
+    name:"WhiteRain",
+    img: whiterain,
+    description:"Application to see the world's climate, in it the OpenWeatherMp API is consumed. Developed with React.",
+    web:"https://cerati.vercel.app/",
+    skil1: "React",
+    skil2: "HTML",
+    skil3: "CSS",
+    skil4: "Axios",
+    skil5: "API rest",
 }
 ]
