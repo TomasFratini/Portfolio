@@ -68,7 +68,7 @@ export const proyectList = [
     name:"WhiteRain",
     img: whiterain,
     description:"Application to see the world's climate, in it the OpenWeatherMp API is consumed. Developed with React.",
-    web:"https://cerati.vercel.app/",
+    web:"https://white-rain.vercel.app/",
     skil1: "React",
     skil2: "HTML",
     skil3: "CSS",

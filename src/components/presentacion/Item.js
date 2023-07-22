@@ -10,7 +10,7 @@ function Item(props) {
   <div className="flex flex-col w-full border-white pt-8 bg-base-200 rounded-b-lg max-w-7xl justify-self-end"><font></font>
     <div className="h-92 card rounded-box place-items-center m-1 bg-base-200">
       <div className="card card-side shadow-xl bg-base-200"><font></font>
-        <figure><img className=" max-w-full h-auto" src={img} alt="item"/></figure><font></font>
+        <figure><img className=" max-w-full h-auto img" src={img} alt="item"/></figure><font></font>
         <div className="card-body"><font></font>
           <h2 className="card-title ">{name}</h2><font></font>
           <p className="text-xl items">{description}</p><font></font>

@@ -33,17 +33,22 @@
 }
 
 .items {
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'GT Zirkon2';
     font-weight: bold ;
 }
 
 .nombre {
     font-family: 'GT Zirkon';
-    /* font-size: 60px; */
     color: black;
     
 }
+
+.img {
+    width: 400px;
+}
+
+
 
 .linkedin {
     color: green;
@@ -58,3 +63,9 @@
 .nav {
     font-family: 'GT Zirkon';
 }
+
+@media screen and (max-width: 600px) {
+    .img {
+      width: 250px;
+    }
+  }
