@@ -17,8 +17,7 @@
 } 
 
 .fondoproyect {
-    background-color: #afb4b7
-    ;
+    background-color: #afb4b7;
 }
 
 .texto {
@@ -67,5 +66,11 @@
 @media screen and (max-width: 600px) {
     .img {
       width: 250px;
+    }
+    .linkedin {
+        font-size: 15px;
+    }
+    .nav {
+        font-size: 15px;
     }
   }
