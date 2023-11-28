@@ -4,6 +4,7 @@ import sendbox from "../img/sendbox.png"
 import challenge from "../img/challenge.png"
 import cerati from "../img/cerati.png"
 import whiterain from "../img/whiterain.png"
+import expense from "../img/expense.png"
 
 
 export const proyectList = [
@@ -74,5 +75,16 @@ export const proyectList = [
     skil3: "CSS",
     skil4: "Axios",
     skil5: "API rest",
+},
+{id:"7",
+    name:"Expenses-Tracker",
+    img: expense,
+    description:"Application to control income and expenses, control graph, developed with React, Tailwind, Victory, Reduce",
+    web:"https://expense-tracker-tomasfratini.vercel.app/",
+    skil1: "React",
+    skil2: "Reduce",
+    skil3: "CSS",
+    skil4: "Tailwind",
+    skil5: "Victory"
 }
 ]
