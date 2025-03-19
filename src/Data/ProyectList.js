@@ -1,7 +1,5 @@
-import ecowheels from "../img/ecowheels.png"
 import gardenia from "../img/gardenia.png"
 import sendbox from "../img/sendbox.png"
-import challenge from "../img/challenge.png"
 import cerati from "../img/cerati.png"
 import whiterain from "../img/whiterain.png"
 import expense from "../img/expense.png"
@@ -9,17 +7,6 @@ import expense from "../img/expense.png"
 
 export const proyectList = [
     
-    {id:"1",
-    name:"Ecowheels",
-    img: ecowheels,
-    description:"E-commerce website designed for the sale of electric skateboards developed with HTML, CSS (SASS) y Bootstrap",
-    web:"https://ecowheels-fratini.vercel.app/index.html",
-    skil1: "HTML",
-    skil2: "CSS",
-    skil3: "Bootstrap",
-    skil4: "SASS",
-    skil5: "GitHub"
-},
 {id:"2",
     name:"Cotizador Sendbox",
     img: sendbox,
@@ -41,17 +28,6 @@ export const proyectList = [
     skil3: "Tailwind",
     skil4: "Daisyui",
     skil5: "Firebase"
-},
-{id:"4",
-    name:"Challenge We-Remote",
-    img: challenge,
-    description:"Page created with React, designed first with Figma; developed with HTML, SASS, Daisyui y JavaScript",
-    web:"https://frontend-dev-challenge-tomasfratini.vercel.app/",
-    skil1: "React",
-    skil2: "HTML",
-    skil3: "Figma",
-    skil4: "Daisyui",
-    skil5: "SASS"
 },
 {id:"5",
     name:"Cerati-gallery",
