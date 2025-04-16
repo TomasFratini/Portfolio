@@ -3,6 +3,7 @@ import sendbox from "../img/sendbox.png"
 import cerati from "../img/cerati.png"
 import whiterain from "../img/whiterain.png"
 import expense from "../img/expense.png"
+import users from "../img/users.png"
 
 
 export const proyectList = [
@@ -62,5 +63,16 @@ export const proyectList = [
     skil3: "CSS",
     skil4: "Tailwind",
     skil5: "Victory"
+},
+{id:"8",
+    name:"Challenge-Users",
+    img: users,
+    description:"Technical test where a certain number of users is displayed, where you can filter, delete users and color rows.",
+    web:"https://prueba-tecnica-users.vercel.app/",
+    skil1: "React",
+    skil2: "API",
+    skil3: "CSS",
+    skil4: "Hooks",
+    skil5: "HTML",
 }
 ]
